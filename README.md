@@ -1,18 +1,23 @@
-# AI-Studio-项目标题
-> 一个好的标题会让你的开源项目发挥更大的价值，想不出好的名字也不用担心，起名时就统一使用AIStudio-xxx做开头吧~
+# AIStudio-中文场景文字识别
 
+项目链接 ：https://aistudio.baidu.com/bd-cpu-01/user/703719/4631067/notebooks/4631067.ipynb
 ## 项目描述
-> 此处可以简要描述项目的“发家史”，例如它是做什么的？它有什么特点？
+> 本项目为基于PaddleOCR的中文场景文字识别，项目主要以CRNN网络为基础框架，结合数据增强及模型微调，采用ResNet34和MobileNetV3模型作为骨干网络，进行训练及预测。
 
 ## 项目结构
-> 一目了然的项目结构能帮助更多人了解，目录树以及设计思想都很重要~
+>CRNN为主
+
+CRNN算法参考：https://blog.csdn.net/qq_36816848/article/details/121723891
+
+
 ```
 -|data
 -|work
 -README.MD
 -xxx.ipynb
 ```
+
+
 ## 使用方式
-> 相信你的Fans已经看到这里了，快告诉他们如何快速上手这个项目吧~  
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)  
-B：此处由项目作者进行撰写使用方式。
+A：直接在AI Studio上[运行本项目](https://aistudio.baidu.com/bd-cpu-01/user/703719/4631067/notebooks/4631067.ipynb)  
+B：数据集存放位置见项目链接
